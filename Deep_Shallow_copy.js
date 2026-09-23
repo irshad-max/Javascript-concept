@@ -7,7 +7,6 @@ const user={
         city:"surat"
     }
 }
-
 //spread opretor only create new object area for outer object not for inner
 const copy={...user}
 copy.name="mustafa"
