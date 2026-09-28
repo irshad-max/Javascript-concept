@@ -21,8 +21,6 @@ const copy2=structuredClone(user)
 copy2.address.city="ahmadabad"
 console.log(user.address.city)
 
-
-
 //same as structuredClone always create new objects reference
 const copy3=JSON.parse(JSON.stringify(user))
 copy3.address.city="ankleshwar"
