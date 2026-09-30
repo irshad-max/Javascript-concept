@@ -4,8 +4,7 @@ const user=[
     {name:"irshad",city:"surat"},
     {name:"mustafa",city:"ankleshwar"}
     ]
- 
- 
+  
 // for in loop give index of objects
 // with the help of index we find keys valyes
 for(x in user){
