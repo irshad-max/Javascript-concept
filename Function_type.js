@@ -23,7 +23,3 @@ console.log(add3(40,40))
 //function declaration is hoisted 
 //means we can call before declaration 
 // and have own argument
-
-//function Date is not hiosted
-//means we can't call Boolean declaration
-// and have own argument
