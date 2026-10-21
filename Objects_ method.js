@@ -9,7 +9,7 @@ const obj={
 
 // object entries function like destructure
 for(const[keys,values] of Object.entries(obj)){
-    console.log(keys)
+    console.log(keys,values)
 }
 
 //Object.keys hume object ke keys dete hai array form me
@@ -21,13 +21,13 @@ const values=Object.values(obj)
 console.log(values)
 
 // optional chaining 
-// ye check karta hai ki kya keys extus karta hsi ya nhi
+// ye check karta hai ki kya keys exits karta hai ya nhi
 // agr nhi karta toh wo bus undefind bata deta hai bina error ke
 
 console.log(obj?.year)
 
 // nullish chaining
-// behave like or opretor agr hai toh dikhao warna 
+// behave like (or opretor) agr hai toh dikhao warna 
 // dusra dikhao
 
 console.log(obj?.year ?? "2023")
