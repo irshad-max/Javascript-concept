@@ -5,10 +5,10 @@ const user=[
     {name:"mustafa",city:"ankleshwar"}
     ]
   
-// for in loop give index of objects
-// with the help of index we find keys valyes
+//for in loop hume index deta hai array of object karta
+//jiski madad se hum perticular index ke specific key se values le sakte hai 
 for(x in user){
-    console.log(user[x].name)
+    console.log(user[x])
 }
 
 
