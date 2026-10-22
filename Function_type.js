@@ -23,3 +23,30 @@ console.log(add3(40,40))
 //function declaration is hoisted 
 //means we can call before declaration 
 // and have own argument
+
+
+// high order function 
+// ya toh koi function callback me le sakta hai
+// ya fir return kar sakta hai
+
+
+//pehla function jo ek func as argument leta hai
+function add(a,b){
+    console.log(a+b)
+}
+function calculate(a,b,callback){
+    callback(a,b)
+}
+calculate(10,20,add)
+
+
+//dusra func jo return karta hai dusra function 
+function minus(a,b){
+    return b-a
+}
+function calculate1(a,b){
+    return minus(a,b)
+}
+
+const c=calculate1(10,20)
+console.log(c)
