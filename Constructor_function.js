@@ -1,4 +1,4 @@
-//es6 se pehle hum constructor function 
+//es6 sse pehle hum constructor function 
 // ka use kiya karte the  basically ye 
 // ek hume object hi return karta hai 
 // or isse hum pascal text se likhte hai
