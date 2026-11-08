@@ -1,4 +1,4 @@
-// ye call back function hai
+// ye call baack function hai
 
 function getuser(cb){
    console.log("irshad")
