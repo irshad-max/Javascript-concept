@@ -4,7 +4,7 @@ function getuser(id,callback){ // yaha me callfunc le raha hu
             id:id,
             name:"irshad"
         }
-        callback(user) // yaha me callback me user daal raha hu
+        callback(user) // yaha me cb me user daal raha hu
     }, 500); // ye sab execute hoga lagbag 0.5s me
 }
 
