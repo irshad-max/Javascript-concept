@@ -1,4 +1,4 @@
-//prototype chain create kese hota hai 
+//prototype chaain create kese hota hai 
 //basically witohut class hum inheritance
 // kese perform karte hai
 
